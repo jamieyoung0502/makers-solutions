@@ -6,7 +6,6 @@ When we call AlbumRepository#all
 We get a list of Album objects reflecting the seed data.
 """
 def test_all_records(db_connection):
-    # re-seed each time for testing purposes
     db_connection.seed("seeds/albums_artists_tables.sql")
     repository = AlbumRepository(db_connection)
     albums = repository.all()

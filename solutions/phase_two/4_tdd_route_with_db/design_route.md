@@ -125,7 +125,6 @@ def test_post_invalid_album(db_connection, web_client)
     assert response.status_code == 400
     assert str(error) == "release year should be an integer, four numbers in length"
 
-
 """
 GET /artists
     Parameters: none
