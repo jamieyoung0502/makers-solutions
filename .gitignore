@@ -1,0 +1,8 @@
+get-pip.py
+your-project-venv
+experimental
+__pycache__
+.coverage
+.env
+env
+.DS_Store
