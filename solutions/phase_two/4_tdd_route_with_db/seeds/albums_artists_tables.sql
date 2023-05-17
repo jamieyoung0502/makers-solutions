@@ -25,6 +25,6 @@ CREATE TABLE albums (
 	CONSTRAINT fk_artist FOREIGN KEY (artist_id) REFERENCES artists (id) ON DELETE CASCADE
 );
 
-INSERT INTO albums (title, release_year) VALUES ('Midnights', 2022, 1);
-INSERT INTO albums (title, release_year) VALUES ('reputation', 2017, 1);
-INSERT INTO albums (title, release_year) VALUES ('Going Blue', 2019, 2);
+INSERT INTO albums (title, release_year, artist_id) VALUES ('Midnights', 2022, 1);
+INSERT INTO albums (title, release_year, artist_id) VALUES ('reputation', 2017, 1);
+INSERT INTO albums (title, release_year, artist_id) VALUES ('Going Blue', 2019, 2);
