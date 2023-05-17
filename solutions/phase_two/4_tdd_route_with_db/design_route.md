@@ -99,10 +99,10 @@ def test_post_album(db_connection, web_client):
     get_response = web_client.get('/albums')
     assert get_response.status_code == 200
     assert get_response.data.decode('utf-8') == textwrap.dedent("""
-        Album(id=1, name="Midnights", release_year=2022, artist_id=1),
-        Album(id=2, name="reputation", release_year=2017, artist_id=1),
-        Album(id=3, name="Going Blue", release_year=2019, artist_id=2),
-        Album(id=4, name="folklore", release_year=2020, artist_id=1)
+        Album(1, "Midnights", 2022, 1),
+        Album(2, "reputation", 2017, 1),
+        Album(3, "Going Blue", 2019, 2),
+        Album(4, "folklore", 2020, 1)
     """)
 
 """
@@ -152,8 +152,8 @@ def test_post_artist(web_client):
     get_response = web_client.get('/artists')
     assert get_response.status_code == 200
     assert get_response.data.decode('utf-8') == textwrap.dedent("""
-        Artist(id=1, name="Taylor Swift", genre="Pop"),
-        Artist(id=2, name="Victoria Bigelow", genre="Mopey"),
-        Artist(id=3, name="Kate", genre="Heavy Metal")
+        Artist(1, "Taylor Swift", "Pop"),
+        Artist(2, "Victoria Bigelow", "Mopey"),
+        Artist(3, "Kate", "Heavy Metal")
     """)
 ```

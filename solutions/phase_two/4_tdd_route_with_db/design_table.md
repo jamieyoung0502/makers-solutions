@@ -7,7 +7,7 @@ _Copy this recipe template to design and create a database table from a specific
 ```
 Nouns:
 
-album, title, release year, artist, id
+album, title, release year, artist, id, name
 ```
 
 ## 2. Infer the Table Name and Columns
@@ -65,5 +65,5 @@ CREATE TABLE albums (
 ## 5. Create the table
 
 ```bash
-psql -h 127.0.0.1 music_library < albums_artists_tables.sql
+psql -h 127.0.0.1 music_web_app < albums_artists_tables.sql
 ```
