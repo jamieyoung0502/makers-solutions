@@ -1,4 +1,5 @@
 import pytest
+
 """
 POST /albums
     Parameters:
@@ -7,6 +8,7 @@ POST /albums
         artist_id: 1
     Expected response (200 OK):
 """
+
 def test_post_album(db_connection, web_client):
     db_connection.seed("seeds/albums_artists_tables.sql")
     post_response = web_client.post('/albums', data={
@@ -24,6 +26,29 @@ def test_post_album(db_connection, web_client):
         'Album(2, reputation, 2017, 1)\n' \
         'Album(3, Going Blue, 2019, 2)\n' \
         'Album(4, folklore, 2020, 1)'
+
+"""
+POST /albums
+    Parameters:
+        title: "folklore"
+        release_year: "bananas"
+        artist_id: 1
+    Expected response (400 Bad Request):
+"""
+def test_post_invalid_album(db_connection, web_client):
+    db_connection.seed("seeds/albums_artists_tables.sql")
+
+    with pytest.raises(TypeError) as error:
+        response = web_client.post('/albums', data={
+            'title': 'folklore',
+            'release_year': "bananas",
+            'artist_id': 1
+        })
+        print(response.error, response.data)
+        error_message = str(error.value)
+        assert error_message == "release year should be an integer, four numbers in length"
+        assert response.status_code == 400
+
 """
 GET /artists
     Parameters: none
@@ -59,24 +84,3 @@ def test_post_artist(web_client):
         'Artist(2, Victoria Bigelow, Mopey)\n' \
         'Artist(3, Kate, Heavy Metal)'
 
-"""
-POST /albums
-    Parameters:
-        title: "folklore"
-        release_year: "bananas"
-        artist_id: 1
-    Expected response (400 Bad Request):
-"""
-def test_post_invalid_album(db_connection, web_client):
-    db_connection.seed("seeds/albums_artists_tables.sql")
-
-    with pytest.raises(TypeError) as error:
-        response = web_client.post('/albums', data={
-            'title': 'folklore',
-            'release_year': "bananas",
-            'artist_id': 1
-        })
-        print(response.error, response.data)
-        error_message = str(error.value)
-        assert error_message == "release year should be an integer, four numbers in length"
-        assert response.status_code == 400
