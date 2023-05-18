@@ -1,5 +1,6 @@
 [
   "tests/test_app.py::test_get_emoji[chromium]",
+  "tests/test_app.py::test_get_goodbye[chromium]",
   "tests/test_book.py::test_book_constructs",
   "tests/test_book.py::test_book_errors",
   "tests/test_book.py::test_book_validity",

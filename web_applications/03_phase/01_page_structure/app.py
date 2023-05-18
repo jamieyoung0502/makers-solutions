@@ -21,6 +21,10 @@ def get_emoji():
     # These placeholders are replaced with the values we pass in as arguments
     return render_template('emoji.html', emoji=':)')
 
+@app.route('/goodbye', methods=['GET'])
+def get_goodbye():
+    return render_template('goodbye.html', goodbye="Bye!")
+
 # This imports some more example routes for you to see how they work
 # You can delete these lines if you don't need them.
 from example_routes import apply_example_routes

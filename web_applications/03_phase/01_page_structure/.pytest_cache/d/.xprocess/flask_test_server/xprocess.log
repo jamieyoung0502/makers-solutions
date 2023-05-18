@@ -1,0 +1,227 @@
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4676
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 10:56:25] "GET /emoji HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4813
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 10:56:26] "GET /books HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4273
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 10:56:27] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:27] "GET /books/3 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4203
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 10:56:28] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:29] "GET /books/new HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:29] "[32mPOST /books HTTP/1.1[0m" 302 -
+127.0.0.1 - - [18/May/2023 10:56:29] "GET /books/6 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4471
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 10:56:30] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:30] "GET /books/new HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:30] "[31m[1mPOST /books HTTP/1.1[0m" 400 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4379
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 10:56:31] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:31] "GET /books/1 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 10:56:31] "[32mPOST /books/1/delete HTTP/1.1[0m" 302 -
+127.0.0.1 - - [18/May/2023 10:56:31] "GET /books HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4410
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:14] "GET /emoji HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4419
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:15] "[33mGET /goodbye HTTP/1.1[0m" 404 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4727
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:21] "GET /books HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4093
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:22] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:22] "GET /books/3 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4673
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:23] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:24] "GET /books/new HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:24] "[32mPOST /books HTTP/1.1[0m" 302 -
+127.0.0.1 - - [18/May/2023 11:06:24] "GET /books/6 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4551
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:25] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:25] "GET /books/new HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:25] "[31m[1mPOST /books HTTP/1.1[0m" 400 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4749
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:06:26] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:26] "GET /books/1 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:06:26] "[32mPOST /books/1/delete HTTP/1.1[0m" 302 -
+127.0.0.1 - - [18/May/2023 11:06:26] "GET /books HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4875
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:46] "GET /emoji HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4485
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:47] "GET /goodbye HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4150
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:48] "GET /books HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4716
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:49] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:49] "GET /books/3 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4064
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:50] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:50] "GET /books/new HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:50] "[32mPOST /books HTTP/1.1[0m" 302 -
+127.0.0.1 - - [18/May/2023 11:07:51] "GET /books/6 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4507
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:51] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:52] "GET /books/new HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:52] "[31m[1mPOST /books HTTP/1.1[0m" 400 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4050
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 122-825-299
+127.0.0.1 - - [18/May/2023 11:07:53] "GET /books HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:53] "GET /books/1 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2023 11:07:53] "[32mPOST /books/1/delete HTTP/1.1[0m" 302 -
+127.0.0.1 - - [18/May/2023 11:07:53] "GET /books HTTP/1.1" 200 -
