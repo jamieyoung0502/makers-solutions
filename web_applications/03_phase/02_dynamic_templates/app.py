@@ -28,7 +28,7 @@ def get_albums():
     )
 
 
-@app.route("/album/<int:id>")
+@app.route("/albums/<int:id>")
 def get_single_album(id):
     album_id = id
     connection = get_flask_database_connection(app)
