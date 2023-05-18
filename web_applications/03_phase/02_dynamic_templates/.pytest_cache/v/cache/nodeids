@@ -8,6 +8,7 @@
   "tests/test_app.py::test_get_artists",
   "tests/test_app.py::test_get_emoji[chromium]",
   "tests/test_app.py::test_get_goodbye[chromium]",
+  "tests/test_app.py::test_get_single_album[chromium]",
   "tests/test_app.py::test_post_album",
   "tests/test_app.py::test_post_artist",
   "tests/test_app.py::test_post_invalid_album_no_params",

@@ -2,6 +2,7 @@ import os
 from flask import Flask, request, render_template
 from lib.database_connection import get_flask_database_connection
 from lib.album_repository import AlbumRepository
+from lib.artist_repository import ArtistRepository
 from lib.album import Album
 
 app = Flask(__name__)
@@ -22,6 +23,20 @@ def get_albums():
     connection = get_flask_database_connection(app)
     repository = AlbumRepository(connection)
     return render_template("albums.html", albums=repository.all())
+
+
+@app.route("/album/<int:id>")
+def get_single_album(id):
+    album_id = id
+    connection = get_flask_database_connection(app)
+    album_repository = AlbumRepository(connection)
+    artist_repository = ArtistRepository(connection)
+    album = album_repository.find(album_id)
+    return render_template(
+        "album.html",
+        album=album_repository.find(album_id),
+        artist=artist_repository.find(album.artist_id),
+    )
 
 
 if __name__ == "__main__":

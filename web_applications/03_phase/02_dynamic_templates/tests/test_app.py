@@ -45,3 +45,13 @@ def test_get_albums(page, test_web_address):
             "Release Date: 2020",
         ]
     )
+
+
+def test_get_single_album(page, test_web_address):
+    page.goto(f"http://{test_web_address}/album/1")
+    title = page.locator(".album_title")
+    year = page.locator(".album_year")
+    artist = page.locator(".artist")
+    expect(title).to_have_text("Title: Midnights")
+    expect(year).to_have_text("Release Date: 2022")
+    expect(artist).to_have_text("Artist: Taylor Swift")
