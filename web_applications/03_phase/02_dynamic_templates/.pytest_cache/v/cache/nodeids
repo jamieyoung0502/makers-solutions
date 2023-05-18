@@ -4,6 +4,7 @@
   "tests/test_album.py::test_albums_format_nicely",
   "tests/test_album_repository.py::test_all_records",
   "tests/test_album_repository.py::test_create_new_record",
+  "tests/test_app.py::test_click_album_link[chromium]",
   "tests/test_app.py::test_get_albums[chromium]",
   "tests/test_app.py::test_get_artists",
   "tests/test_app.py::test_get_emoji[chromium]",

@@ -21,8 +21,11 @@ def get_goodbye():
 @app.route("/albums")
 def get_albums():
     connection = get_flask_database_connection(app)
-    repository = AlbumRepository(connection)
-    return render_template("albums.html", albums=repository.all())
+    album_repository = AlbumRepository(connection)
+    artist_repository = ArtistRepository(connection)
+    return render_template(
+        "albums.html", albums=album_repository.all(), artists=artist_repository.all()
+    )
 
 
 @app.route("/album/<int:id>")

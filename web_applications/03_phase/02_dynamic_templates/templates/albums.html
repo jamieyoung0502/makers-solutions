@@ -11,6 +11,11 @@
         <div>
             <h1 class="album_title">Title: {{ album.title }}</h1>
             <p class="album_year">Release Date: {{ album.release_year }}</p>
+        {% for artist in artists %}
+            {% if artist.id == album.artist_id %}
+                <a href="/album/{{album.id}}" class="link_{{album.id}}">{{album.title}} by {{artist.name}}</a>
+            {% endif %}
+        {% endfor %}
         </div>
     {% endfor %}
 </body>
