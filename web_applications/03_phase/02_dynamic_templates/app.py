@@ -4,6 +4,7 @@ from lib.database_connection import get_flask_database_connection
 from lib.album_repository import AlbumRepository
 from lib.artist_repository import ArtistRepository
 from lib.album import Album
+from lib.artist import Artist
 
 app = Flask(__name__)
 
@@ -77,6 +78,31 @@ def post_new_album():
 
     album = album_repository.create(album)
     return redirect(f"/albums/{album.id}")
+
+
+@app.route("/artists/new")
+def get_new_artist():
+    return render_template("artists/new.html")
+
+
+@app.route("/artists", methods=["POST"])
+def post_new_artist():
+    connection = get_flask_database_connection(app)
+    artist_repository = ArtistRepository(connection)
+    name = request.form["name"]
+    genre = request.form["genre"]
+    artist = Artist(None, name, genre)
+
+    if not artist.is_valid():
+        return (
+            render_template(
+                "albums/new.html", album=album, errors=album.generate_errors()
+            ),
+            400,
+        )
+
+    artist = artist_repository.create(artist)
+    return redirect(f"/artists/{artist.id}")
 
 
 if __name__ == "__main__":

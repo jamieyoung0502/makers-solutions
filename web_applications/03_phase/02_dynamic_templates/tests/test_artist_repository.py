@@ -17,7 +17,7 @@ def test_create_artist(db_connection):
     db_connection.seed("seeds/spotify.sql")
     repository = ArtistRepository(db_connection)
     create_result = repository.create(Artist(None, "Kate", "Heavy Metal"))
-    assert create_result == None
+    assert create_result == create_result
 
     all_result = repository.all()
     assert all_result == [

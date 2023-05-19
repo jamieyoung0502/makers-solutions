@@ -2375,3 +2375,430 @@ AttributeError: 'str' object has no attribute 'id'
 127.0.0.1 - - [19/May/2023 11:53:40] "GET /albums/new HTTP/1.1" 200 -
 127.0.0.1 - - [19/May/2023 11:53:40] "[32mPOST /albums HTTP/1.1[0m" 302 -
 127.0.0.1 - - [19/May/2023 11:53:40] "GET /albums/4 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4528
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 11:58:27] "GET /albums HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4412
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 11:58:28] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4593
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 11:58:29] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 11:58:29] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4750
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 11:58:30] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4700
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 11:58:31] "GET /artists HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4528
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:03:30] "GET /albums HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4384
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:03:31] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4884
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:03:32] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:03:32] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4574
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:03:33] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4561
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:03:34] "GET /artists HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4999
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:24] "GET /albums HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4290
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:26] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4285
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:27] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:04:27] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4131
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:28] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4955
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:29] "GET /artists HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4462
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:30] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:04:30] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4608
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:04:31] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:04:31] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:04:31] "[35m[1mPOST /artists HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/venv/lib/python3.11/site-packages/flask/app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/venv/lib/python3.11/site-packages/flask/app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/venv/lib/python3.11/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/venv/lib/python3.11/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/venv/lib/python3.11/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/venv/lib/python3.11/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/ahards/Makers/solutions/web_applications/03_phase/02_dynamic_templates/app.py", line 105, in post_new_artist
+    return redirect(f"/artists/{artist.id}")
+                                ^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'id'
+127.0.0.1 - - [19/May/2023 12:04:31] "GET /artists?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:04:31] "GET /artists?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:04:31] "GET /artists?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4407
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:13] "GET /albums HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4468
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:14] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4946
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:16] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:16] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4432
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:17] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4512
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:18] "GET /artists HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4934
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:19] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:19] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4887
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:20] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:20] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:20] "[32mPOST /artists HTTP/1.1[0m" 302 -
+127.0.0.1 - - [19/May/2023 12:06:20] "GET /artists/3 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4019
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:52] "GET /albums HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4173
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:53] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4149
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:54] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:54] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4931
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:55] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4055
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:56] "GET /artists HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4977
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:57] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:57] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4004
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:06:58] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:58] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:06:58] "[32mPOST /artists HTTP/1.1[0m" 302 -
+127.0.0.1 - - [19/May/2023 12:06:58] "GET /artists/3 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4707
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:50] "GET /albums HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4027
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:51] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4474
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:52] "GET /albums HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:07:52] "GET /albums/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4371
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:53] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4738
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:54] "GET /artists HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4579
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:55] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:07:55] "GET /artists/1 HTTP/1.1" 200 -
+@@__xproc_block_delimiter__@@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:4494
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 100-605-226
+127.0.0.1 - - [19/May/2023 12:07:56] "GET /artists HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:07:56] "GET /artists/new HTTP/1.1" 200 -
+127.0.0.1 - - [19/May/2023 12:07:56] "[32mPOST /artists HTTP/1.1[0m" 302 -
+127.0.0.1 - - [19/May/2023 12:07:56] "GET /artists/3 HTTP/1.1" 200 -
