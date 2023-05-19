@@ -118,7 +118,13 @@ def test_create_album(db_connection, page, test_web_address):
     expect(artist).to_have_text("Artist: Taylor Swift")
 
 
-def test_create_album(db_connection, page, test_web_address):
+"""
+If we create a new artist with a valid name and genre
+We see the new artist's show page
+"""
+
+
+def test_create_artist(db_connection, page, test_web_address):
     db_connection.seed("seeds/spotify.sql")
     page.goto(f"http://{test_web_address}/artists")
     page.click("text=Add Artist")
@@ -131,3 +137,30 @@ def test_create_album(db_connection, page, test_web_address):
 
     expect(name).to_have_text("Name: Kate")
     expect(genre).to_have_text("Genre: Heavy Metal")
+
+
+"""
+If we create a new artist without a name or genre
+We see an error message
+"""
+def test_create_artist_error(db_connection, page, test_web_address):
+    db_connection.seed("seeds/spotify.sql")
+    page.goto(f"http://{test_web_address}/artists")
+    page.click("text=Add Artist")
+    page.click("text=Create Artist")
+    errors = page.locator(".t-errors")
+    expect(errors).to_have_text("There were errors with your submission: Name can't be blank, Genre can't be blank")
+
+
+"""
+If we create a new album without a title, release year or artist
+We see an error message
+"""
+def test_create_album_error(db_connection, page, test_web_address):
+    db_connection.seed("seeds/spotify.sql")
+    page.goto(f"http://{test_web_address}/albums")
+    page.click("text=Add Album")
+    page.click("text=Create Album")
+    errors = page.locator(".t-errors")
+    expect(errors).to_have_text("There were errors with your submission: Title can't be blank, Release Year can't be blank, Artist can't be blank")
+

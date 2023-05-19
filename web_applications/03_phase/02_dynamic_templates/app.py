@@ -96,7 +96,7 @@ def post_new_artist():
     if not artist.is_valid():
         return (
             render_template(
-                "albums/new.html", album=album, errors=album.generate_errors()
+                "albums/new.html", album=artist, errors=artist.generate_errors()
             ),
             400,
         )

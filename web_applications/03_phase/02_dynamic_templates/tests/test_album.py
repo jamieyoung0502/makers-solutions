@@ -68,30 +68,15 @@ We can generate errors for an invalid album
 
 
 def test_album_errors():
-    assert (
-        Album(1, "", "", "").generate_errors()
-        == "Title can't be blank, Release Year can't be blank, Artist can't be blank"
-    )
-    assert (
-        Album(1, "", "", None).generate_errors()
-        == "Title can't be blank, Release Year can't be blank, Artist can't be blank"
-    )
+    assert Album(1, "", "", "").generate_errors() == "Title can't be blank, Release Year can't be blank, Artist can't be blank"
+    assert Album(1, "", "", None).generate_errors() == "Title can't be blank, Release Year can't be blank, Artist can't be blank"
     assert Album(1, "Best Of", "", 1).generate_errors() == "Release Year can't be blank"
     assert Album(1, "", "2023", 1).generate_errors() == "Title can't be blank"
     assert Album(1, None, "2023", 1).generate_errors() == "Title can't be blank"
-    assert (
-        Album(1, "Best Of", None, 1).generate_errors() == "Release Year can't be blank"
-    )
+    assert Album(1, "Best Of", None, 1).generate_errors() == "Release Year can't be blank"
     assert Album(1, "Best Of", "2023", "").generate_errors() == "Artist can't be blank"
-    assert (
-        Album(1, "Best Of", "2023", None).generate_errors() == "Artist can't be blank"
-    )
-    assert (
-        Album(None, "Best Of", "2023", "").generate_errors() == "Artist can't be blank"
-    )
-    assert (
-        Album(None, "Best Of", "2023", None).generate_errors()
-        == "Artist can't be blank"
-    )
+    assert Album(1, "Best Of", "2023", None).generate_errors() == "Artist can't be blank"
+    assert Album(None, "Best Of", "2023", "").generate_errors() == "Artist can't be blank"
+    assert Album(None, "Best Of", "2023", None).generate_errors() == "Artist can't be blank"
     assert Album(1, "Best Of", "2023", 1).generate_errors() == None
     assert Album(None, "Best Of", "2023", 1).generate_errors() == None

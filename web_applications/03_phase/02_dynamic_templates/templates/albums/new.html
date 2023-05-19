@@ -28,6 +28,7 @@
         <p>
             <label for="artist">Select an artist:</label>
             <select id="artist" name="artist">
+                <option value=""></option>
                 {% for artist in artists %}
                     <option value="{{ artist.id }}">{{ artist.name }}</option>
                 {% endfor %}
