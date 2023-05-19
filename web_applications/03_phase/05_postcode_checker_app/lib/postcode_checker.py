@@ -5,6 +5,6 @@ class PostcodeChecker():
         if postcode is None:
             return False
         return re.match(
-            r"^[a-z]\d[a-z\d]?\s*\d[a-z]{2}$",
+            r"^[a-z]{1,2}?\d[a-z\d]?\s*\d[a-z]{2}$",
             postcode,
             re.IGNORECASE) is not None

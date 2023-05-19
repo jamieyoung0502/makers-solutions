@@ -11,7 +11,7 @@ def index():
 
 
 @app.route('/check', methods=['POST'])
-def check():
+def post_check_postcode():
     checker = PostcodeChecker()
     postcode = request.form.get('postcode')
     is_valid = checker.check(postcode)

@@ -1,0 +1,8 @@
+[
+  "tests/test_app.py::test_back_to_homepage[chromium]",
+  "tests/test_app.py::test_get_homepage[chromium]",
+  "tests/test_app.py::test_invalid_postcode[chromium]",
+  "tests/test_app.py::test_valid_postcode[chromium]",
+  "tests/test_postcode_checker.py::test_invalid_postcodes",
+  "tests/test_postcode_checker.py::test_valid_postcodes"
+]
