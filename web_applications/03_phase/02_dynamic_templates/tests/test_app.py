@@ -164,3 +164,4 @@ def test_create_album_error(db_connection, page, test_web_address):
     errors = page.locator(".t-errors")
     expect(errors).to_have_text("There were errors with your submission: Title can't be blank, Release Year can't be blank, Artist can't be blank")
 
+
