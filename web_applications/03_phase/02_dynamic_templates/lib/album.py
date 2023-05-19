@@ -26,9 +26,9 @@ class Album:
         if self.title == None or self.title == "":
             errors.append("Title can't be blank")
         if self.release_year == None or self.release_year == "":
-            errors.append("Release year can't be blank")
+            errors.append("Release Year can't be blank")
         if self.artist_id == None or self.artist_id == "":
-            errors.append("Arist ID can't be blank")
+            errors.append("Artist can't be blank")
         if len(errors) == 0:
             return None
         else:
