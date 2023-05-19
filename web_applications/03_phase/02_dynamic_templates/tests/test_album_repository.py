@@ -31,7 +31,7 @@ def test_create_new_record(db_connection):
     repository = AlbumRepository(db_connection)
     album = Album(None, "folklore", 2020, 1)
     result = repository.create(album)
-    assert result == None
+    assert result == album
 
     albums = repository.all()
 

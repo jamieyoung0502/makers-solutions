@@ -1,11 +1,16 @@
 from lib.album import Album
+
+
 class AlbumRepository:
     def __init__(self, connection) -> None:
         self._connection = connection
 
     def all(self):
-        rows = self._connection.execute('SELECT * from albums')
-        return [Album(row["id"], row["title"], row["release_year"], row["artist_id"]) for row in rows]
+        rows = self._connection.execute("SELECT * from albums")
+        return [
+            Album(row["id"], row["title"], row["release_year"], row["artist_id"])
+            for row in rows
+        ]
 
     def find(self, id):
         query = """
@@ -14,16 +19,23 @@ class AlbumRepository:
         WHERE id = %s
         """
         album = self._connection.execute(query, [id])[0]
-        return Album(album["id"], album["title"], album["release_year"], album["artist_id"])
+        return Album(
+            album["id"], album["title"], album["release_year"], album["artist_id"]
+        )
 
     def create(self, new_album):
         query = """
         INSERT INTO albums
         (title, release_year, artist_id)
         VALUES(%s, %s, %s)
+        RETURNING id
         """
-        self._connection.execute(query, [new_album.title, new_album.release_year, new_album.artist_id])
-        return None
+        rows = self._connection.execute(
+            query, [new_album.title, new_album.release_year, new_album.artist_id]
+        )
+        row = rows[0]
+        new_album.id = row["id"]
+        return new_album
 
     def delete(self, id):
         query = """

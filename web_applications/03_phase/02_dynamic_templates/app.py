@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, redirect, url_for
 from lib.database_connection import get_flask_database_connection
 from lib.album_repository import AlbumRepository
 from lib.artist_repository import ArtistRepository
@@ -14,7 +14,9 @@ def get_albums():
     album_repository = AlbumRepository(connection)
     artist_repository = ArtistRepository(connection)
     return render_template(
-        "albums.html", albums=album_repository.all(), artists=artist_repository.all()
+        "albums/index.html",
+        albums=album_repository.all(),
+        artists=artist_repository.all(),
     )
 
 
@@ -26,7 +28,7 @@ def get_single_album(id):
     artist_repository = ArtistRepository(connection)
     album = album_repository.find(album_id)
     return render_template(
-        "album.html",
+        "albums/show.html",
         album=album_repository.find(album_id),
         artist=artist_repository.find(album.artist_id),
     )
@@ -37,14 +39,44 @@ def get_single_artist(id):
     artist_id = id
     connection = get_flask_database_connection(app)
     artist_repository = ArtistRepository(connection)
-    return render_template("artist.html", artist=artist_repository.find(artist_id))
+    return render_template(
+        "artists/show.html", artist=artist_repository.find(artist_id)
+    )
 
 
 @app.route("/artists")
 def get_all_artists():
     connection = get_flask_database_connection(app)
     artist_repository = ArtistRepository(connection)
-    return render_template("artists.html", artists=artist_repository.all())
+    return render_template("artists/index.html", artists=artist_repository.all())
+
+
+@app.route("/albums/new")
+def get_new_album():
+    connection = get_flask_database_connection(app)
+    artist_repository = ArtistRepository(connection)
+    return render_template("albums/new.html", artists=artist_repository.all())
+
+
+@app.route("/albums", methods=["POST"])
+def post_new_album():
+    connection = get_flask_database_connection(app)
+    album_repository = AlbumRepository(connection)
+    title = request.form["title"]
+    release_year = request.form["release_year"]
+    artist_id = request.form["artist"]
+    album = Album(None, title, release_year, artist_id)
+
+    if not album.is_valid():
+        return (
+            render_template(
+                "albums/new.html", album=album, errors=album.generate_errors()
+            ),
+            400,
+        )
+
+    album = album_repository.create(album)
+    return redirect(f"/albums/{album.id}")
 
 
 if __name__ == "__main__":

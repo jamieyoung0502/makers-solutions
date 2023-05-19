@@ -6,6 +6,7 @@
   "tests/test_album_repository.py::test_create_new_record",
   "tests/test_app.py::test_artist_link[chromium]",
   "tests/test_app.py::test_click_album_link[chromium]",
+  "tests/test_app.py::test_create_album[chromium]",
   "tests/test_app.py::test_get_albums[chromium]",
   "tests/test_app.py::test_get_all_artists[chromium]",
   "tests/test_app.py::test_get_artists",
